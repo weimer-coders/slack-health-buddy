@@ -15,7 +15,7 @@ Health Buddy is a Slack App that helps you maintain mental and physical health t
 - Then you must open Slack in your browser, and retrieve the Slack channel ID, located in the URL. Paste that into "channel."
 - After that, generate your own Slack token. [Read about different Slack tokens.](https://api.slack.com/docs/token-types) You need the OAuth Bot User Token.
 - Invite health-buddy to the Slack channel!
-- If you want, you can add more messages into the JSON file.
+- If you want, you can add more messages into the *tips.py* file.
 - Finally, deploy to Heroku. [Here is a helpful video we used.](https://www.youtube.com/watch?v=DwWPunpypNA) We also used Heroku Scheduler to have Health Buddy run every four hours.
 - You're good to go!
 
