@@ -1,0 +1,13 @@
+secret-tokens.py
+.env
+
+
+# Python
+*.pyc
+_pycache_/
+
+#virtualenv
+.env
+Env/
+ENV/
+Env.bak/
