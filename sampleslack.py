@@ -6,8 +6,6 @@ import os
 #config variables from Heroku
 TOKEN = os.environ.get('TOKEN')
 
-#token = "xoxp-11512551346-128660016704-331817023059-3af39baedf8482ee7811fb1fc4376086" # Remember to keep all sensitive information away from Github like this key. I used the OAuth Access Token
-
 slack = SlackClient(TOKEN)
 #name of the token must be all caps for Heroku
 
